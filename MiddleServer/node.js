@@ -1,3 +1,4 @@
+//Server used to recieve files recordings from user
 var express = require("express");
 var multer = require('multer');
 var app = express();
