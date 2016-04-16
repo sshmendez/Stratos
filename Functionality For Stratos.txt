@@ -1,0 +1,58 @@
+Functionality For Stratos
+
+	Push to Record:
+		1) ActionPerformed (Button is Pressed?)
+		2) Acces mic
+		3) Record input until Button is released.
+		4) Send .wav file to Tropo server.
+		5) Translate .wav to text within Tropo server.
+		6) Return recorded text to app.
+		7) Display recorded text into a text box for user verification.
+		8) Have user confirm text.
+			a) True: Save reminder and send to "Reminder Creation".
+			b) False (Option 1): Manually edit the text box and send back to Tropo server with user verification as true.
+				i) Save reminder and send to "Reminder Creation".
+			c) False (Option 2): Run "Push to Record" again.
+
+	Reminder Creation:
+		1) Prompt user for title of reminder. (TextBox)
+		2) Set Date/Time setting for reminder. 
+		3) Optional: Set "Geolocation Reminder".
+		4) Prompt user for reminder format. (Call, Text)
+		5) Add user or group (Which group is the reminder for?)
+		6) If the time matches ignore Geolocation setting and send reminder.
+		7) Add newly created reminder to users reminder list (and specified groups list).
+
+	Geolocation Reminder:
+		1) Search bar for known loactions.
+		2) Optional: Get Current Location.
+		3) Gather Lat/Long from searched location. 
+		4) Set specified loaction in reminder.
+		5) If the coordinates match ignore time setting and send reminder.
+
+	Groups Tab:
+		1) Need the list of known groups (Alpha order?)
+		2) Show title of groups.
+		3) Number of active reminders for the group.
+		4) Tap to get all info on the group.
+		5) Swipe to delete group. (Will remove user's phone number from group and currently active reminders)
+	
+	Group Details:
+		1) Title of group.
+		2) Associated phone numbers in the group.
+		3) Currently active reminders.
+		4) Option to delete group. (Will remove user's phone number from group and currently active reminders)
+
+	Reminder Tab:
+		1) Need the list of active reminders. (Order by time.)
+		2) Show title of reminders.
+		3) If possible, show set geolocation of the reminder.
+		4) Tap to get all info on the reminder.
+		5) Swipe to delete reminder.
+	
+	Reminder Details:
+		1) Title of reminder.
+		2) The set Time/Date of the reminder.
+		3) If possible, show set geolocation of the reminder.
+		4) Show form of reminder. (Call or text)
+		5) Associated phone numbers in the reminder.
