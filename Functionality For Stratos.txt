@@ -35,17 +35,20 @@ Functionality For Stratos
 		2) Show title of groups.
 		3) Number of active reminders for the group.
 		4) Tap to get all info on the group.
+		5) Swipe to delete group. (Will remove user's phone number from group and currently active reminders)
 	
 	Group Details:
 		1) Title of group.
 		2) Associated phone numbers in the group.
 		3) Currently active reminders.
+		4) Option to delete group. (Will remove user's phone number from group and currently active reminders)
 
 	Reminder Tab:
 		1) Need the list of active reminders. (Order by time.)
 		2) Show title of reminders.
 		3) If possible, show set geolocation of the reminder.
 		4) Tap to get all info on the reminder.
+		5) Swipe to delete reminder.
 	
 	Reminder Details:
 		1) Title of reminder.
