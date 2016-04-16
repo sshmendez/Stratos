@@ -29,3 +29,27 @@ Functionality For Stratos
 		3) Gather Lat/Long from searched location. 
 		4) Set specified loaction in reminder.
 		5) If the coordinates match ignore time setting and send reminder.
+
+	Groups Tab:
+		1) Need the list of known groups (Alpha order?)
+		2) Show title of groups.
+		3) Number of active reminders for the group.
+		4) Tap to get all info on the group.
+	
+	Group Details:
+		1) Title of group.
+		2) Associated phone numbers in the group.
+		3) Currently active reminders.
+
+	Reminder Tab:
+		1) Need the list of active reminders. (Order by time.)
+		2) Show title of reminders.
+		3) If possible, show set geolocation of the reminder.
+		4) Tap to get all info on the reminder.
+	
+	Reminder Details:
+		1) Title of reminder.
+		2) The set Time/Date of the reminder.
+		3) If possible, show set geolocation of the reminder.
+		4) Show form of reminder. (Call or text)
+		5) Associated phone numbers in the reminder.
