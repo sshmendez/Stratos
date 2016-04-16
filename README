@@ -1,0 +1,17 @@
+Reminder:
+	geolocation reminders
+	periodic reminders:
+		speech to text reminders
+		call reminders
+		text reminders
+		voice record reminder
+
+		group reminders:
+			join reminder
+			leaver reminder
+
+	reminder directory
+	celeb reminders
+	event reminder
+
+	spark command integration
